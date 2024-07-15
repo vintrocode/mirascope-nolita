@@ -15,9 +15,6 @@ def browse_web(objective: str, start_url: str = "https://google.com", max_iterat
                 "model":"gpt-4", 
                 "apiKey": os.getenv("OPENAI_API_KEY")
             },
-            "hdrConfig": {
-                "apikey": "hdr-3z3cQObuVMBC62duPtQyfDgPTEaRWcsr"
-            }
         }
     )
     browser_session_id = browser_session.json()["sessionId"]
