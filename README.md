@@ -1,10 +1,10 @@
 # Mirascope 🤝 Nolita
 
-This is a simple conversational chatbot that uses Nolita as a web browsing tool. It's on the model to determine when it needs to search the web. It's also a nice demo of how to build a custom tool in Mirascope.
+This is a simple conversational chatbot that uses [Nolita](https://github.com/hdresearch/nolita) as a web browsing tool. It's on the model to determine when it needs to search the web. It's also a nice demo of how to build a custom tool in Mirascope.
 
 ### Getting Started
 
-You have to be running Nolita locally to use this. You can find the repo [here](https://github.com/nolita-ai/nolita). Follow their installation instructions. To run the server, use the following command:
+You have to be running Nolita locally to use this. Follow their installation instructions. To run the server, use the following command:
 
 ```
 npx nolita serve
